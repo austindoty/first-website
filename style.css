@@ -6,7 +6,7 @@ body
   min-height: 100vh;
   background: #1d061a
 }
-header{
+.container{
 /* From https://css.glass */
 background: rgba(255, 255, 255, 0.11);
 border-radius: 16px;
