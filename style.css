@@ -6,7 +6,7 @@ body
   min-height: 100vh;
   background: #1d061a
 }
-.container{
+.container {
 /* From https://css.glass */
 background: rgba(255, 255, 255, 0.11);
 border-radius: 16px;
@@ -17,6 +17,7 @@ border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .content {
+  padding: 15px;
   font-family:'Courier New', Courier, monospace;
   font-size: 1em;
   color: #fff;
