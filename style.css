@@ -7,9 +7,9 @@
 header {
   background-image: linear-gradient( 72deg, #A3C4BC, #413C58);
   text-align: center;
-  text-size: 2rem;
+  font-size: 2rem;
   padding: 1rem;
-  font-color: #fff;
+  color: #fff;
 }
 body {
   background-color: #F2E7C9;
@@ -26,8 +26,9 @@ main {
 section {
   padding: 0.5rem;
 }
-.center {
+.imagecenter {
   text-align: center;
+  padding: 0.5rem
 }
 h2 {
   text-align: center;
