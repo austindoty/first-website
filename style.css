@@ -1,4 +1,5 @@
-* {
+/*CSS reset to make sure everything is prudy*/
+*{
   margin: 0;
   padding:0;
   box-sizing: content-box;
@@ -11,6 +12,7 @@ header {
   padding: 1rem;
   color: #fff;
 }
+/* meat and potatoes*/
 body {
   background-color: #F2E7C9;
   color: #000;
@@ -26,6 +28,7 @@ main {
 section {
   padding: 0.5rem;
 }
+/*boy playing image*/
 .imagecenter {
   text-align: center;
   padding: 0.5rem
@@ -37,11 +40,20 @@ li {
   text-indent: 0.5rem;
   inl
 }
-
+/*Footer */
 footer {
    background-image: linear-gradient( 72deg, #A3C4BC, #413C58);
     text-align: center;
   padding: 0.75rem;
+  height: 0.75rem;
   color: #fff;
+}
+/* PsuedoClasses for Links*/
+a {
+  a:link (color #A3C4BC);
+  a:visited (color #BFD7B5);
+  a:hover (color #E7EFC5);
+  a:active (color #F2E7C9)
+
 }
 
