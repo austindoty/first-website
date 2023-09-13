@@ -36,6 +36,8 @@ section {
 h2 {
   text-align: center;
 }
+
+/* Makes sure that the list is idented*/
 li {
   text-indent: 0.5rem;
   inl
